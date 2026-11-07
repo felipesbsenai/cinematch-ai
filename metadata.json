@@ -1,0 +1,6 @@
+{
+  "name": "CineMatch AI",
+  "description": "Plataforma inteligente de recomendação e descoberta de filmes e séries com assistente de IA conversacional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

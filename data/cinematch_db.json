@@ -1,0 +1,243 @@
+{
+  "users": [
+    {
+      "id": "default-user",
+      "name": "Cinéfilo CineMatch",
+      "email": "usuario@cinematch.ai",
+      "createdAt": "2026-11-07T17:07:28.236Z"
+    }
+  ],
+  "preferences": [
+    {
+      "userId": "default-user",
+      "favoriteGenres": [
+        "Ficção Científica",
+        "Drama",
+        "Suspense",
+        "Comédia"
+      ],
+      "rejectedGenres": [],
+      "streamingProviders": [
+        "netflix",
+        "prime",
+        "disney",
+        "max"
+      ],
+      "preferredContentType": "all",
+      "preferredDuration": "any",
+      "preferredLanguage": "pt-BR",
+      "avoidHorror": false,
+      "familyFriendlyMode": false,
+      "maxAgeRating": "18+"
+    }
+  ],
+  "watchlist": [
+    {
+      "userId": "test-user",
+      "tmdbId": 693134,
+      "mediaType": "movie",
+      "title": "Duna: Parte 2",
+      "voteAverage": 8.3,
+      "genre": [
+        "Ficção científica",
+        "Aventura"
+      ],
+      "providers": [
+        "max"
+      ],
+      "watched": true,
+      "id": "wl-1794071522237-gvehy",
+      "addedAt": "2026-11-07T17:12:02.237Z"
+    },
+    {
+      "id": "wl-1",
+      "userId": "default-user",
+      "tmdbId": 157336,
+      "mediaType": "movie",
+      "title": "Interestelar",
+      "posterPath": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "backdropPath": "/rAiYTsqhk0ke0Vo768q4m59f8v1.jpg",
+      "overview": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para habitação.",
+      "voteAverage": 8.4,
+      "releaseDate": "2014-11-05",
+      "genre": [
+        "Ficção científica",
+        "Drama",
+        "Aventura"
+      ],
+      "providers": [
+        "netflix",
+        "max"
+      ],
+      "addedAt": "2026-11-05T17:07:28.236Z",
+      "watched": false
+    },
+    {
+      "id": "wl-2",
+      "userId": "default-user",
+      "tmdbId": 136283,
+      "mediaType": "tv",
+      "title": "O Urso",
+      "posterPath": "/sO4m6e0YVn5c1iRj2e4x0Yd8XgC.jpg",
+      "backdropPath": "/nTvM4mhqZlHI3rFmsabUpk9v0V5.jpg",
+      "overview": "Um jovem chef de alta gastronomia luta para transformar a lanchonete de sanduíches de sua família em Chicago.",
+      "voteAverage": 8.3,
+      "releaseDate": "2022-06-23",
+      "genre": [
+        "Drama",
+        "Comédia"
+      ],
+      "providers": [
+        "disney"
+      ],
+      "addedAt": "2026-11-06T17:07:28.236Z",
+      "watched": true
+    }
+  ],
+  "viewingHistory": [
+    {
+      "userId": "test-user",
+      "tmdbId": 693134,
+      "mediaType": "movie",
+      "title": "Duna: Parte 2",
+      "interactionType": "click_watch",
+      "id": "vh-1794071522252-41190",
+      "createdAt": "2026-11-07T17:12:02.252Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv-1794071254083",
+      "sessionId": "session-1794071253679",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "Quero assistir a um suspense psicológico daqueles de explodir a cabeça"
+        },
+        {
+          "sender": "ai",
+          "text": "Adoro essa pegada! Você prefere um suspense psicológico que mexe com a mente, uma investigação policial ou conspiração?",
+          "timestamp": "2026-11-07T17:07:34.083Z"
+        }
+      ],
+      "collectedPreferences": {
+        "reply": "Adoro essa pegada! Você prefere um suspense psicológico que mexe com a mente, uma investigação policial ou conspiração?",
+        "readyForRecommendations": false,
+        "mood": "tenso",
+        "contentType": "all",
+        "preferredGenres": [
+          "Suspense"
+        ],
+        "rejectedGenres": [],
+        "preferredDuration": "qualquer",
+        "watchingWith": "sozinho",
+        "streamingProviders": [
+          "netflix",
+          "prime",
+          "max"
+        ],
+        "suggestedQuickReplies": [
+          "Suspense psicológico",
+          "Investigação policial",
+          "Conspiração e mistério"
+        ],
+        "confidence": 88
+      },
+      "createdAt": "2026-11-07T17:07:34.083Z",
+      "updatedAt": "2026-11-07T17:07:34.083Z"
+    },
+    {
+      "id": "conv-1794071522212",
+      "sessionId": "session-1794071521878",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "Quero uma boa comédia para rir com a família"
+        },
+        {
+          "sender": "ai",
+          "text": "Perfeito para relaxar a cabeça! Você está no clima de comédia ácida e inteligente, comédia romântica ou algo pastelão?",
+          "timestamp": "2026-11-07T17:12:02.212Z"
+        }
+      ],
+      "collectedPreferences": {
+        "reply": "Perfeito para relaxar a cabeça! Você está no clima de comédia ácida e inteligente, comédia romântica ou algo pastelão?",
+        "readyForRecommendations": false,
+        "mood": "descontraído",
+        "contentType": "all",
+        "preferredGenres": [
+          "Comédia"
+        ],
+        "rejectedGenres": [],
+        "preferredDuration": "qualquer",
+        "watchingWith": "sozinho",
+        "streamingProviders": [
+          "netflix",
+          "prime",
+          "max"
+        ],
+        "suggestedQuickReplies": [
+          "Comédia inteligente",
+          "Romântica e leve",
+          "Besteyrol divertido"
+        ],
+        "confidence": 88
+      },
+      "createdAt": "2026-11-07T17:12:02.212Z",
+      "updatedAt": "2026-11-07T17:12:02.212Z"
+    },
+    {
+      "id": "conv-1794075462149",
+      "sessionId": "sess-1794075460740-c6zhw",
+      "messages": [
+        {
+          "sender": "ai",
+          "text": "Olá! Sou o CineMatch AI. Vamos encontrar algo incrível para assistir hoje? Me conte o que você tem em mente ou escolha as opções abaixo."
+        },
+        {
+          "sender": "user",
+          "text": "Um filme"
+        },
+        {
+          "sender": "ai",
+          "text": "Muito bom! Você prefere assistir a um filme fechado agora ou começar uma série para maratonar?"
+        },
+        {
+          "sender": "user",
+          "text": "Um filme de 2 horas"
+        },
+        {
+          "sender": "ai",
+          "text": "Perfeito! Já captei exatamente o clima que você busca. Vou cruzar suas preferências com a disponibilidade no catálogo do Brasil.",
+          "timestamp": "2026-11-07T18:17:46.530Z"
+        }
+      ],
+      "collectedPreferences": {
+        "reply": "Perfeito! Já captei exatamente o clima que você busca. Vou cruzar suas preferências com a disponibilidade no catálogo do Brasil.",
+        "readyForRecommendations": true,
+        "mood": "reflexivo",
+        "contentType": "movie",
+        "preferredGenres": [
+          "Suspense",
+          "Drama"
+        ],
+        "rejectedGenres": [],
+        "preferredDuration": "qualquer",
+        "watchingWith": "sozinho",
+        "streamingProviders": [
+          "netflix",
+          "prime",
+          "max"
+        ],
+        "suggestedQuickReplies": [
+          "Gerar Recomendações!",
+          "Ajustar opções",
+          "Voltar"
+        ],
+        "confidence": 88
+      },
+      "createdAt": "2026-11-07T18:17:42.149Z",
+      "updatedAt": "2026-11-07T18:17:46.530Z"
+    }
+  ]
+}
